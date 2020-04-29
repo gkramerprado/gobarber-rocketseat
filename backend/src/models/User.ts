@@ -18,6 +18,9 @@ class Users {
   email: string;
 
   @Column('varchar')
+  avatar: string;
+
+  @Column('varchar')
   password: string;
 
   @CreateDateColumn()
